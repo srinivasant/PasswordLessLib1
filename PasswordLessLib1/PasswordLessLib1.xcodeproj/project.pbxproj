@@ -11,6 +11,7 @@
 		41FC17CE289770CB006CAD3E /* PasswordLessLib1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FC17C3289770CA006CAD3E /* PasswordLessLib1.framework */; };
 		41FC17D3289770CB006CAD3E /* PasswordLessLib1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC17D2289770CB006CAD3E /* PasswordLessLib1Tests.swift */; };
 		41FC17D4289770CB006CAD3E /* PasswordLessLib1.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FC17C6289770CA006CAD3E /* PasswordLessLib1.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41FC17E02897713E006CAD3E /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC17DF2897713E006CAD3E /* AccountManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		41FC17C7289770CA006CAD3E /* PasswordLessLib1.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PasswordLessLib1.docc; sourceTree = "<group>"; };
 		41FC17CD289770CB006CAD3E /* PasswordLessLib1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordLessLib1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		41FC17D2289770CB006CAD3E /* PasswordLessLib1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordLessLib1Tests.swift; sourceTree = "<group>"; };
+		41FC17DF2897713E006CAD3E /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				41FC17C6289770CA006CAD3E /* PasswordLessLib1.h */,
 				41FC17C7289770CA006CAD3E /* PasswordLessLib1.docc */,
+				41FC17DF2897713E006CAD3E /* AccountManager.swift */,
 			);
 			path = PasswordLessLib1;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41FC17C8289770CA006CAD3E /* PasswordLessLib1.docc in Sources */,
+				41FC17E02897713E006CAD3E /* AccountManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +398,7 @@
 		41FC17DB289770CB006CAD3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +414,7 @@
 		41FC17DC289770CB006CAD3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
