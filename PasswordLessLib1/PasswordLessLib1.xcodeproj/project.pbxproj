@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		41FC17C8289770CA006CAD3E /* PasswordLessLib1.docc in Sources */ = {isa = PBXBuildFile; fileRef = 41FC17C7289770CA006CAD3E /* PasswordLessLib1.docc */; };
 		41FC17CE289770CB006CAD3E /* PasswordLessLib1.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41FC17C3289770CA006CAD3E /* PasswordLessLib1.framework */; };
-		41FC17D3289770CB006CAD3E /* PasswordLessLib1Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC17D2289770CB006CAD3E /* PasswordLessLib1Tests.swift */; };
 		41FC17D4289770CB006CAD3E /* PasswordLessLib1.h in Headers */ = {isa = PBXBuildFile; fileRef = 41FC17C6289770CA006CAD3E /* PasswordLessLib1.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		41FC17E02897713E006CAD3E /* AccountManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FC17DF2897713E006CAD3E /* AccountManager.swift */; };
 		41FC17E328977697006CAD3E /* screenshots_2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 41FC17E128977696006CAD3E /* screenshots_2.gif */; };
@@ -31,7 +30,6 @@
 		41FC17C6289770CA006CAD3E /* PasswordLessLib1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PasswordLessLib1.h; sourceTree = "<group>"; };
 		41FC17C7289770CA006CAD3E /* PasswordLessLib1.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = PasswordLessLib1.docc; sourceTree = "<group>"; };
 		41FC17CD289770CB006CAD3E /* PasswordLessLib1Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordLessLib1Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		41FC17D2289770CB006CAD3E /* PasswordLessLib1Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordLessLib1Tests.swift; sourceTree = "<group>"; };
 		41FC17DF2897713E006CAD3E /* AccountManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountManager.swift; sourceTree = "<group>"; };
 		41FC17E128977696006CAD3E /* screenshots_2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshots_2.gif; sourceTree = "<group>"; };
 		41FC17E228977696006CAD3E /* screenshots_1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshots_1.gif; sourceTree = "<group>"; };
@@ -60,7 +58,6 @@
 			isa = PBXGroup;
 			children = (
 				41FC17C5289770CA006CAD3E /* PasswordLessLib1 */,
-				41FC17D1289770CB006CAD3E /* PasswordLessLib1Tests */,
 				41FC17C4289770CA006CAD3E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -84,14 +81,6 @@
 				41FC17E128977696006CAD3E /* screenshots_2.gif */,
 			);
 			path = PasswordLessLib1;
-			sourceTree = "<group>";
-		};
-		41FC17D1289770CB006CAD3E /* PasswordLessLib1Tests */ = {
-			isa = PBXGroup;
-			children = (
-				41FC17D2289770CB006CAD3E /* PasswordLessLib1Tests.swift */,
-			);
-			path = PasswordLessLib1Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,7 +203,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				41FC17D3289770CB006CAD3E /* PasswordLessLib1Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
